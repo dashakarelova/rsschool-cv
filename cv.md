@@ -18,8 +18,8 @@ function multiply(a, b){
 }
 ```
 ## Education
-* *rsschool stage-0 - now*
-* *Institute of Psychology*
+* __Courses:__ *rsschool stage-0 - in progress*
+* __University:__ *Institute of Psychology - finished*
 ## Languages
 * *Russian - Native*
 * *English - A2*
