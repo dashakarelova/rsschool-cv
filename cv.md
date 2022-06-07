@@ -1,0 +1,25 @@
+# **Karelova Daria**
+## Contacts
+* *Location:* Minsk, Belarus
+* *Email:* karelovadasha4@gmail.com
+* *Telegram:* @kd_moni
+* *[GitHub](https://github.com/dashakarelova)*
+## About Me
+*I am 23 years old and I am glad that at such an early age I managed to try myself in different fields. This is my second time trying to attend school at The Rolling Scopes. I really hope that this time nothing will prevent me from taking this course to the end.*
+## Skills
+* *[HTML](https://ru.code-basics.com/languages/html)*
+* *[CCS](https://ru.code-basics.com/languages/css)*
+* *[Git](https://swiftbook.ru/content/12-index/)*
+## Code example
+```
+function multiply(a, b){
+  console.log(a * b);
+  return a * b;
+}
+```
+## Education
+* *rsschool stage-0 - now*
+* *Institute of Psychology*
+## Languages
+* *Russian - Native*
+* *English - A2*
