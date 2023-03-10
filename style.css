@@ -1,4 +1,4 @@
-body {
+body{
   font-family: 'Cabin', sans-serif;
   color: #696969;
   font-size: 18px;
@@ -7,73 +7,51 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-
-* {
+*{
   box-sizing: border-box;
 }
-
-
-.container {
+.container{
   max-width: 1440px;
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
-  }
-  
-
-.profile-photo {
+}
+.profile-photo{
   border-radius: 3%;
 }
-
-
-.profile h1 {
+.profile h1{
   margin-block-end: 0px;
   text-decoration: underline;
-  text-decoration-color: pink;
+  text-decoration-color: gray;
 }
-
-
-.profile p {
+.profile p{
   padding: 0px 0px 30px 0px;
   margin-block-start: 0px;
   margin-left: 10px;
- }
-
-  
-.nav-list {
+ } 
+.nav-list{
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  }
-
-
-html {
+}
+html{
   scroll-behavior: smooth; 
-  }
-
-
-.nav-link {
+}
+.nav-link{
   padding: 0 20px;
   line-height: 50px;
   transition: .3s;
-  }
-
-
-.nav-item a {
+}
+.nav-item a{
   color: #696969;
   text-decoration: none;
   transition: color 0.5s;
-  }
-
-
-.nav-item a:hover {
-  color: pink;
-  }
-
-
-@media (max-width: 768px) {
+}
+.nav-item a:hover{
+  color: black;
+}
+@media (max-width: 768px){
   .section {
     width: 60%;
     }
@@ -85,108 +63,73 @@ html {
       align-items: center;
     }
   }
-
-
-.two-columns {
+.two-columns{
   display: flex;
 }
-
-
-.left-column {
+.left-column{
   color: #696969;
-  background-color: #FFF0F5;
+  background-color: #f0ecec;
   width: 35%;
   padding: 30px;
 }
-
-
-.right-column {
+.right-column{
   width: 65%;
   padding: 30px 80px 30px 30px;
 }
-
-
-.code-example {
+.code-example{
   margin: 40px 0px 40px 0px;
 }
-
-.education {
+.education{
   margin: 0px 0px 40px 0px;
 }
-
-
-.contacts li img {
+.contacts li img{
   vertical-align: middle;
   margin: 0px 11px 10px 0px;
 }
-
-
-.contacts ul {
+.contacts ul{
   padding-inline-start: 5px;
 }
-
-
-.contacts li {
+.contacts li{
   list-style-type: none;
 }
-
-
-.contacts a {
+.contacts a{
   text-decoration: none;
   color: #696969;
 }
-
-
-.contacts a:hover {
-  color: pink;
+.contacts a:hover{
+  color: black;
   transition: color 0.5s;
 }
-
-
-.experience {
+.experience{
   margin: 0px 0px 40px 0px;
 }
-
-
 .experience a{
   text-decoration: none;
   color: #696969;
 }
-
-
 .experience a:hover{
-  color: pink;
+  color: black;
   transition: color 0.5s;
 }
-
-
-.footer {
+.footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px 0px 20px;
   color: #696969;
 }
-
-
-.my-github {
+.my-github{
   display: flex;
   align-items: center;
 }
-
-
-.footer a {
+.footer a{
   text-decoration: none;
   color: #696969;
 }
-
-
-.footer a:hover {
-  color: pink;
+.footer a:hover{
+  color: black;
   transition: color 0.5s;
 }
-
-
-.footer .github-icon {
+.footer .github-icon{
   margin-right: 15px;
 }
