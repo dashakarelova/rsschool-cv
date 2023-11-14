@@ -1,10 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/svg/IMG_6732.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                    <li><a href="#aboutme">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#codeexample">CODE EXAMPLE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#languages">LANGUAGES</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="two-columns">
+            <aside class="left-column">
+                    <section class="profile">
+                        <img src="./assets/img/IMG_6732.jpg" alt="my photo" width="200" height="300">
+                        <h1>DARIA KARELOVA</h1>
+                        <p>Junior Frontend Developer</p>
+                    </section>
+                    <section class="contacts" id="contacts">
+                        <h2>CONTACTS</h2>
+                        <ul>
+                            <li>
+                                <img src="./assets/svg/github.svg" alt="GitHub Icon" width="30" height="30">
+                                <a href="https://github.com/dashakarelova">dashakarelova</a>
+                            </li>
+                            <li>
+                                <img src="./assets/svg/gmail.svg" alt="Email Icon" width="30" height="30">
+                                <a href="mailto:karelovadasha4@gmail.com">karelovadasha4@gmail.com</a>
+                            </li>
+                            <li>
+                                <img src="./assets/svg/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                                <a href="https://t.me/kdmoni">@kdmoni</a>
+                            </li>
+                            <li>
+                                <img src="./assets/svg/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+                                <a href="https://www.linkedin.com/in/daria-karelova/">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">SKILLS</h2>
+                        <ul>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </section>
+                    <section class="languages section" id="languages">
+                        <h2 class="section-title">LANGUAGES</h2>
+                        <ul>
+                            <li>RUSSIAN - Native</li>
+                            <li>ENGLISH - A2</li>
+                        </ul>
+                    </section>
+            </aside>
+            <aside class="right-column">
+                <section class="section" id="aboutme">
+                    <h2 class="section-title">ABOUT ME</h2>
+                    <p>I am 24 years old and I am glad that at such an early age I managed 
+                        to try myself in different fields. In the summer of 2021 I graduated 
+                        from university. Now I continue to learn English 
+                        and take a courses at RSSchool.
+                    </p>
+                    <p>I believe that my desire and perseverance will help to 
+                        complete this course and become an experienced Frontend developer.
+                    </p>
+                </section>
+                <section class="code-example" id="codeexample">
+                    <h2 class="section-title">CODE EXAMPLE</h2>
+                    <pre><code>
+function multiply(a, b) {
+    return a * b;
+}
+</code></pre>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <p>Institute of Psychology BSPU</p>
+                    <p>Years: 2016-2021</p>
+                </section>
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">EXPERIENCE</h2>
+                    <ul>
+                        <li>
+                            <img src="./assets/svg/sleeping-area.svg" alt="Shelter Icon" width="30" height="30">
+                            <a href="https://rolling-scopes-school.github.io/dashakarelova-JSFE2023Q1/shelter/main/index.html">Shelter</a>
+                        </li>
+                        <li>
+                            <img src="./assets/svg/favicon.svg" alt="Plants Icon" width="30" height="30">
+                            <a href="https://rolling-scopes-school.github.io/dashakarelova-JSFEPRESCHOOL2022Q4/plants/">Plants</a>
+                        </li>
+                        <li>
+                            <img src="./assets/svg/meme1.svg" alt="Meme Icon" width="25" height="25">
+                            <a href="https://dashakarelova.github.io/cssBayan//cssBayan/">CSS Bayan</a>
+                        </li>
+                        <li>
+                            <img src="./assets/svg/bpl.svg" alt="Library Icon" width="30" height="30">
+                            <a href="https://rolling-scopes-school.github.io/dashakarelova-JSFEPRESCHOOL2023Q2/library/">Library</a>
+                        </li>
+                        <li>
+                            <img src="./assets/svg/Trollface.svg" alt="Meme Icon" width="25" height="25">
+                            <a href="https://dashakarelova.github.io/cssMemeSlider/cssMemeSlider/">CSS Memes Slider</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">COURSES</h2>
+                    <ul>
+                        <li>HTML and CSS courses on Code Basics</li>
+                        <li>JS course on learn.javascript, Udemy and Code Basics</li>
+                        <li>Git course on Hexlet and SwiftBook</li>
+                        <li>RS School "JavaScript/Front-end. Stage 0"</li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+        <footer class="footer">
+            <a class="my-github" href="https://github.com/dashakarelova">
+                <img class="github-icon" src="./assets/svg/github.svg" alt="GitHub Icon" width="30" height="30">
+                <p>dashakarelova</p>
+            </a>
+            <p>© 2023</p>
+            <a href="https://rs.school/js/">
+                <img src="./assets/svg/rsschool.svg" alt="Rsschool Icon"  width="80" height="80">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>

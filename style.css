@@ -1,3 +1,151 @@
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
+    font-family: 'Cabin', sans-serif;
+    color: #696969;
+    line-height: 1.5;
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+    color: #696969;
+}
+
+* {
+    padding: 0;
     margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+  
+.nav ul li a {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+  
+.nav ul li a:hover {
+    color: black;
+    transition: color 0.5s;
+}
+
+.two-columns {
+    display: flex;
+    gap: 30px;
+}
+  
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background-color: #f0ecec;
+    width: 25%;
+    padding: 30px 0px 30px 30px;
+}
+
+.profile img {
+    border-radius: 3%;
+}
+  
+.profile h1 {
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #696969;
+}
+
+.contacts ul {
+    padding-inline-start: 5px;
+}
+
+.contacts li:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+.contacts li,
+.experience li {
+    list-style-type: none;
+}
+
+.contacts ul,
+.experience ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacts li,
+.experience li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    width: 65%;
+    padding: 30px 80px 30px 0px;
+}
+
+.section li {
+    margin-left: 30px;
+}
+
+.experience li:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.footer a:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+.footer .github-icon {
+    margin-right: 15px;
+}
+
+@media (max-width: 768px){
+    .section {
+        width: 60%;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
